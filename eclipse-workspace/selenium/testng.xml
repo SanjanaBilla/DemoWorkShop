@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI Test Suite">
+<listeners>
+
+<listener class-name="common.Listeners"/>
+
+
+</listeners>
+
+  <test  name="Functional Testing">
+    <classes>
+      <class name="com.selenium.example1"/>
+      <class name="com.selenium.DataProviderDemo"/>
+      <class name="com.selenium.softAssertExample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
